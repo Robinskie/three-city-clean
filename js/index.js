@@ -35,7 +35,7 @@ directionalLight.shadow.camera.right = 50;
 directionalLight.shadow.camera.bottom = -50;
 directionalLight.shadow.mapSize.set(2048, 2048);
 
-scene.add(new THREE.CameraHelper(directionalLight.shadow.camera)); // helper class
+// scene.add(new THREE.CameraHelper(directionalLight.shadow.camera)); // helper class
 
 scene.add(ambientLight, directionalLight);
 
